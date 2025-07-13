@@ -1,4 +1,4 @@
-# OpenOutpaint ComfyUI Interface
+# WO's Nodes
 
 A collection of mostly random nodes of random usefulness.
 
