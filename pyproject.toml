@@ -1,0 +1,18 @@
+[project]
+name = "wo_nodes"
+version = "0.0.1"
+description = "A collection of mostly random nodes of random usefulness."
+authors = [{name = "Without Ordinary", email = "without-ordinary@users.noreply.github.com"}]
+readme = "README.md"
+license = {text = "GNU General Public License v3"}
+classifiers = []
+dependencies = ["opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/without-ordinary/wo_nodes"
+
+[tool.comfy]
+PublisherId = "without-ordinary"
+DisplayName = "WO Nodes"
+Icon = ""
+
