@@ -27,3 +27,19 @@ def filter_file_list_by_dirs_list(file_list, dirs_list):
     if "[root dir]" in dirs_list:
         dirs_list[dirs_list.index("[root dir]")] = ""
     return [file for file in file_list if any(os.path.dirname(file) == dir for dir in dirs_list)]
+
+
+def remove_trailing_empty_strings(string_list):
+    """
+    Removes empty strings from the end of a list of strings.
+
+    Args:
+        string_list: A list of strings.
+
+    Returns:
+        The modified list with trailing empty strings removed.
+    """
+    while string_list and string_list[-1] == '':
+        string_list.pop()
+    return string_list
+

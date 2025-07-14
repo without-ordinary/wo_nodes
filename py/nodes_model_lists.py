@@ -26,9 +26,7 @@ class ListCheckpoints:
             },
         }
 
-    OUTPUTS = {
-        "checkpoints": IO.STRING,
-    }
+    OUTPUTS = {"checkpoints": IO.STRING}
     RETURN_TYPES = tuple(OUTPUTS.values())
     RETURN_NAMES = tuple(OUTPUTS.keys())
     FUNCTION = "out"

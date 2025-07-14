@@ -17,6 +17,8 @@ def add_nodes(node_classes):
         NODE_DISPLAY_NAME_MAPPINGS[node_class.CLASSNAME] = node_class.NAME
 
 from .py.nodes_model_lists import get_nodes as get_model_lists
+from .py.nodes_strings import get_nodes as get_nodes_strings
 
 add_nodes(get_model_lists())
+add_nodes(get_nodes_strings())
 
